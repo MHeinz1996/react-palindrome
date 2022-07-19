@@ -6,9 +6,7 @@ function CheckPalindrome(props) {
         let palindrome = false;
         let str = word.toLowerCase()
 
-        if(str !== (str.replace(regex, ''))) {
-            return false
-        }
+        if(str !== (str.replace(regex, ''))) {return false}
 
         for(let i=0; i<str.length; i++){
             let j = str.length - (i+1);
@@ -21,7 +19,6 @@ function CheckPalindrome(props) {
         }
 
         return palindrome
-        // console.log(str)
     }
 
     if(palindrome.length > 0) {
@@ -34,8 +31,6 @@ function CheckPalindrome(props) {
             return 'False'
         }
     }
-    
-
 }
 
 export default CheckPalindrome

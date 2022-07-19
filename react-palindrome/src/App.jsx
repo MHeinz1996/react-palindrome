@@ -9,11 +9,6 @@ function App() {
     setPalindrome(document.getElementById('input-filed').value)
   }
 
-
-  // if(palindrome.length != 0) {
-  //   console.log(palindrome)
-  // }
-
   return (
     <div className="App">
       <h1>Palindrome Checker</h1>
