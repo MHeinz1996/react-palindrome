@@ -16,6 +16,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Palindrome Checker</h1>
       <input id="input-filed" onChange={handleChange} placeholder='Enter a word...'></input>
       <div className='output'>
         {
